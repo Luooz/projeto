@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body bgcolor="f0f0f0">
+    <br>
+    <center><img src="itau-logo-1.png" width="100px" </center>
+   <section>
+       <h1>Cadastro Pessoal</h1>
+       <form action="sucesso.html" method="get">
+           <div class="grupo grupo-1">
+            <label for="Nome">Nome
+                <input type="text" name="Nome" id="Nome" placeholder="Seu nome completo" required>
+            </label>
+            <label for="CPF">CPF/CNPJ
+                <input title="XXX.XXX.XXX-XX" type="text" name="CPF" id="CPF" placeholder="CPF/CNPJ" required>
+            </label>
+            <label for="RG">RG
+                <input type="number" name="RG" id="RG" placeholder="RG">
+            </label>
+            <label for="Sexo">Sexo
+                <select name="Sexo" id="Sexo">
+                <option value="selecione">Selecione</option>
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+                </select>
+            </label>
+           </div>
+          <div class="grupo grupo-2">
+              <label for="Endereço">Endereço
+                  <input type="text" name="Endereço" id="Endereço" placeholder="Endereço" required>
+              </label>
+              <label for="Número">Número de residência
+                <input type="number" name="Número" id="Número" placeholder="Nº" required>
+              </label>
+          </div>
+          <div class="grupo">
+              <label for="Bairro">Bairro
+                  <input type="text" name="Bairro" id="Bairro" placeholder="Bairro">
+              </label>
+              <label for="Cidade">Cidade
+                  <input type="text" name="Cidade" id="Cidade" placeholder="Cidade" required>
+              </label>
+              <label for="Estado">Estado
+                <select name="Estado" id="Estado" placeholder="UF">
+                  <option value="selecione">Selecione</option>
+                  <option value="AC">Acre</option>
+                  <option value="AL">Alagoas</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo</option>
+                  <option value="GO">Goiás</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="RN">Rio Grande do Norte</option>
+                  <option value="RS">Rio Grande do Sul</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="SE">Sergipe</option>
+                  <option value="TO">Tocantins</option>
+                </select>
+              </label>
+          </div>
+          <div class="grupo">
+              <label for="CEP">CEP
+                  <input type="number" name="CEP" id="CEP" pattern="\d{5}-?\d{3}" placeholder="XXXXX-XXX">
+              </label>
+              <label for="Telefone">Telefone Celular
+                  <input type="tel" name="Telefone" id="Telefone" pattern="^\([1-9]{2}\) (?:[2-8]|9[1-9])[0-9]{3}\-[0-9]{4}$" required title="(99) 9 9999-9999" placeholder="(DDD) X XXXX-XXXX">
+              </label>
+              <label for="Fixo">Telefone Fixo
+                  <input type="tel" name="Fixo" id="Fixo" pattern="^\([1-9]{2}\) (?:[2-8]|9[1-9])[0-9]{3}\-[0-9]{4}$" required title="(33) 3333-3333" placeholder="(DDD) XXXX-XXXX">
+              </label>
+          </div>
+          <input type="submit" value="Enviar" onclick="validarFeedback()">
+       </form>
+   </section>
+   <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+   <script src="assets/js/global.js"></script>
+</body>
+</html>

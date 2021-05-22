@@ -1,0 +1,92 @@
+body, caption, details, div, fieldset, form, caption, h1, h2, h3, h4, h5, h6, hr, html, img, li, ol, p, summary, svg, table, td, th, tr, ul
+{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section
+{
+  margin: 50px;
+}
+
+section h1
+{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+form
+{
+  background: #ffe512;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* uma coluna com largura total */
+  grid-template-rows: repeat(4, auto); /* 4 grupos */
+  grid-gap: 40px; 
+
+  margin: 0 auto;
+
+  padding: 20px;
+
+  width: 1024px;
+}
+
+form .grupo
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+form .grupo label
+{
+  display: flex;
+  line-height: 190%;
+}
+
+form .grupo input
+{
+  border: none;
+  border-radius: 5px;
+  color: #424242;
+  padding: 5px;
+  outline: none;
+}
+
+form .grupo input, form .grupo select
+{
+  height: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+form .grupo.grupo-1
+{
+  grid-template-columns: repeat(3, 1fr) 0.5fr; /* são 3 inputs com largura de 1 fr e um outro input com 0.5 fr */
+}
+
+form .grupo.grupo-2
+{
+  grid-template-columns: auto 15px; /* caixa de endereço com largura de 1fr e caixa de número de residência com 15px */
+}
+
+form .grupo.grupo-2 input[name="Endereço"]
+{
+  width: 600px;
+}
+
+form .grupo.grupo-2 input[name="Número"]
+{
+  width: 60px;
+}
+
+form input[type="submit"]
+{
+  background-color: #004990;
+  border: none;
+  border-radius: 5px;
+  color: #f0f0f0;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100px;
+}
