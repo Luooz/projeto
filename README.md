@@ -18,8 +18,6 @@ Visual Studio Code
 HTML | CSS | JavaScript
 
 #### Funcionalidades, implementações relevantes e links de pesquisas:
-
-Gustavo Reis, dev full-stack e designer gráfico - Site: https://gusbemacbe.herokuapp.com | GitHub: https://github.com/gusbemacbe
   
 Git - Guia Prático - https://rogerdudler.github.io/git-guide/index.pt_BR.html
   
