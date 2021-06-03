@@ -5,7 +5,7 @@
 
 #### Objetivo:
 
-Criar uma tela para cadastro pessoal, com campos para nome, RG, CPF e endereço completo.<br>
+Criar uma tela para cadastro pessoal, com campos para nome, RG, CPF e endereço completo 📱💸💳💰<br>
 
 #### Ferramenta:
 Visual Studio Code
