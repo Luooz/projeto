@@ -19,3 +19,16 @@ HTML | CSS | JavaScript
 
 #### Funcionalidades, implementações relevantes e links de pesquisas:
 
+Gustavo Reis, dev full-stack e designer gráfico - Site: https://gusbemacbe.herokuapp.com | GitHub: https://github.com/gusbemacbe
+  
+Git - Guia Prático - https://rogerdudler.github.io/git-guide/index.pt_BR.html
+  
+Expressão regular de celular - https://gist.github.com/reggiegutter/5516382
+
+Expressão regular de CPF/CNPJ - https://pt.stackoverflow.com/questions/133691/formatar-campo-cpf-ou-cnpj-usando-regex
+  
+Ferramenta online para aprender, construir e testar expressões regulares - https://regexr.com/
+  
+Seletor de cores da imagem online para selecionar uma cor e obter o código de cores HTML - https://imagecolorpicker.com/pt-pt
+ 
+Tabelas de suporte de navegador atualizadas para suporte de tecnologias front-end da web em navegadores de desktop e móveis - https://caniuse.com/
