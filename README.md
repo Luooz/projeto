@@ -30,3 +30,5 @@ Ferramenta online para aprender, construir e testar expressões regulares - http
 Seletor de cores da imagem online para selecionar uma cor e obter o código de cores HTML - https://imagecolorpicker.com/pt-pt
  
 Tabelas de suporte de navegador atualizadas para suporte de tecnologias front-end da web em navegadores de desktop e móveis - https://caniuse.com/
+  
+Lista de estados em HTML - https://gist.github.com/michelbrito/1083205
