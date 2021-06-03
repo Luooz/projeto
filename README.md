@@ -1,7 +1,7 @@
-# Desafio Cadastro Pessoal - Formação Tech
+# Desafio Cadastro Pessoal - Formação Tech ♿
 
 #### Autor:
-- [Lucas Silva Soares Barreto](https://github.com/Luooz)
+- [Lucas Silva Soares Barreto](https://github.com/Luooz) 🧏‍♂️
 
 #### Objetivo:
 
